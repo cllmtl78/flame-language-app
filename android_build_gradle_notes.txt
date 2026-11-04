@@ -1,0 +1,9 @@
+android/app/build.gradle (veya .kts) icinde:
+
+namespace = "com.chattechcorpTR.flamechatanonconfess"
+defaultConfig {
+    applicationId = "com.chattechcorpTR.flamechatanonconfess"
+    minSdk = 23
+    versionCode = 12        // Play'deki 11'den BUYUK olmali
+    versionName = "1.0.11"  // 11 (1.0.10) sonrasi
+}
